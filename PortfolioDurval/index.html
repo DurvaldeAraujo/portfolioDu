@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfólio Durval de Araujo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio, Fatec/Lins"> 
+  <link rel="stylesheet" href="styleindex.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <a class="navbar-brand" href="#">
+                <img id="imglogo" src="imagens/Durval.png" width="30%" height="30%" alt="logo">
+              </a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="https://www.fateclins.edu.br" target="_blank">Fatec Lins</a>
+          <a href="#portfolio" target="_self">Portfólio</a>
+          <a href="#contatos" target="_self">Contatos</a>
+        </div>
+    </div>
+  </header>
+
+  <section>
+    <div id="sobremim" class="container">
+      <h1>Sobre Mim</h1>
+      <p>Olá, meu nome é Durval de Araujo. Sou um estudante de programação. Apaixonado por animais e pela natureza, nas horas vagas gosto de tirar fotos do nascer e por do sol.</p>
+      <br>
+      <div class="container">
+        <img id="img1" src="imagens/WhatsApp Image 2023-06-04 at 21.48.04.jpeg"  alt="Imagem 1">
+        <br><br>
+        <p>Atualmente procuro melhorar minhas habilidades em programação. Estou fazendo cursos online e intensivos gratuitos, para poder aprender coisas novas e também para melhorar minhas habilidades.</p>
+    </div>
+  </section>
+
+  <section id="portfolio" class="page">
+    <div class="container">
+      <h2>Portfólio</h2>
+      <div class="grid">
+        <div class="grid-item">
+            <button type="button" class="collapsible" onclick="openModal(1)">1º Semestre</button>
+            <br>
+          <p>Criação de Conteúdo para Web.</p>
+        </div>
+        <div class="grid-item">
+            <button type="button" class="collapsible" onclick="openModal(2)">2º Semestre</button>
+            <br>
+          <p>Prática de Desgin.</p>
+        </div>
+        <div class="grid-item">
+            <button type="button" class="collapsible" onclick="openModal(3)">3º Semestre</button>
+            <br>
+          <p>Acessibilidade na Internet.</p>
+        </div>
+        <div class="grid-item">
+            <button type="button" class="collapsible" onclick="openModal(4)">4º Semestre</button>
+            <br>
+          <p>Projeto de Navegação e Interação.</p>
+        </div>
+        <div class="grid-item">
+            <button type="button" class="collapsible" onclick="openModal(5)">5º Semestre</button>
+            <br>
+          <p>Tópicos Especiais em Sistemas para Internet II.</p>
+        </div>
+        <div class="grid-item">
+            <button type="button" class="collapsible" onclick="openModal(6)">6º Semestre</button>
+            <br>
+          <p>Tópicos Especiais em Sistemas para Internet III.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal(1)">&times;</span>
+        <h2>Trazendo os Boletins Informativos da FATEC Lins: Explorando Conceitos de Escrita para Web.</h2>
+        <img id="bo1" src="imagens/Imagem1.png" alt="Boletim Informativo">
+        <p id="p1">O trabalho proposto envolve a criação de uma página para exibir os boletins informativos da FATEC Lins, conforme mostrado na imagem 1, durante a disciplina de criação de conteúdo para web. A página criada deve abordar os conceitos discutidos no semestre de 2019, como escrita para web, uso de etiquetas
+           de comunicação, planejamento do projeto de escrita, usabilidade focada no conteúdo, utilização da pirâmide invertida, estratificação de dados, redação e otimização para mecanismos de busca (SEO). Durante o desenvolvimento, todo o boletim informativo do site da FATEC Lins foi analisado, filtrando e selecionando
+            as informações relevantes de acordo com as técnicas textuais ensinadas em sala de aula, para melhor adequação a cada projeto.</p>
+        <img id="bo2" src="imagens/Sem título.png" alt="Boletim Informativo">
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h2>Explorando a Identidade Visual de uma Pizzaria: O Trabalho de Design no Curso de Sistemas para Internet</h2>
+        <img id="bo3" src="imagens/Imagem2.png" alt="Cartão de Visitas">
+        <span class="close" onclick="closeModal(2)">&times;</span>
+        <p id="p2">Neste capítulo, relata-se sobre um trabalho realizado no segundo semestre do curso de Sistemas para Internet, na disciplina de Prática de Design. O objetivo era criar uma empresa fictícia e desenvolver sua identidade visual, incluindo camiseta, logotipo, cartão fidelidade, panfleto e cardápio, tendo em mente que a empresa seria uma pizzaria.
+        Para a criação, foi utilizado o software CorelDraw, amplamente utilizado na montagem de diversos tipos de designs, devido aos seus recursos e capacidade de trabalhar com vetores, garantindo eficiência e preservação da qualidade das imagens escolhidas durante o redimensionamento..</p>
+      </div>
+    </div>
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h2>Acessibilidade na Internet: Garantindo a Igualdade de Acesso e Oportunidades para Todos</h2>
+        <span class="close" onclick="closeModal(3)">&times;</span>
+        <img id="bo4" src="imagens/acessibilidade-na-internet-web.png" alt="imagem sobre Acessibilidade">
+        <p>Acessibilidade na Internet refere-se à garantia de que todas as pessoas, incluindo aquelas com deficiência, possam utilizar e desfrutar plenamente da web. É um conceito que envolve a criação de sites e aplicativos acessíveis, que possam ser percebidos, compreendidos, navegados e interagidos por todas as pessoas, 
+          independentemente de suas habilidades ou limitações.Os criadores de conteúdo que desejam tornar seus sites mais acessíveis podem utilizar recursos de programação e ferramentas específicas para avaliar a acessibilidade. Isso permite identificar áreas que precisam ser melhoradas e garantir que o site atenda aos padrões 
+          de acessibilidade estabelecidos pela World Wide Web Consortium (W3C) e outras organizações relevantes.</p>
+      </div>
+    </div>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <h2>Explorando o User Experience (UX) e criando um protótipo de portfolio interativo</h2>
+        <span class="close" onclick="closeModal(4)">&times;</span>
+        <img id="bo5" src="imagens/Imagem4.png" alt="sitemap em fluxograma">
+        <p id="p4">No quarto semestre do curso, na disciplina de Projeto de Navegação e Interação, é abordado o conceito de User Experience (UX) e sua importância na atualidade. UX significa Experiência do Usuário e engloba a experiência que uma pessoa tem ao utilizar objetos ou sistemas, como websites, aplicativos de telefone, TVs
+           e até mesmo objetos cotidianos, como uma caneta.Com base nos princípios do UX, foi proposta a criação de uma interface interativa com o usuário, especificamente um protótipo de portfolio para ser apresentado como trabalho de conclusão de curso (TCC). Para a criação desse protótipo, foi escolhida a ferramenta de design 
+           Figma, que possui diversas funcionalidades para a montagem do projeto de alta fidelidade, contendo todas as páginas web necessárias. Além disso, foi necessário desenvolver um processo escrito abordando temas como compreensão, planejamento, requisitos funcionais e não funcionais, design conceitual e design físico do portfolio.</p>
+           <img id="bo6" src="imagens/Imagem3.png" alt="imagem de uma site feito no figma">
+      </div>
+    </div>
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+        <h2>Explorando o Desenvolvimento de Aplicativos Móveis com Apache Cordova: Uma Jornada Multiplataforma</h2>
+        <span class="close" onclick="closeModal(5)">&times;</span>
+        <img src="" alt="">
+        <p>Neste capítulo do curso "Tópicos especiais em sistemas para Internet II", exploramos o desenvolvimento de aplicativos móveis utilizando o framework Apache Cordova. Através do uso de tecnologias web padrão, como HTML5, CSS3 e Javascript, aprendemos a estrutura básica para a criação de um aplicativo multiplataforma.
+          O Apache Cordova oferece uma variedade de plugins que podem ser adicionados ao aplicativo, como Status Battery, Camera, Device, Dialogs, File e Geolocation. Através do arquivo Config.xml, é possível personalizar a configuração do aplicativo, incluindo ícones, nome e endereços. O LocalStorage é utilizado como uma opção de armazenamento de dados no navegador.
+        </p>
+      </div>
+    </div>
+    <div id="modal6" class="modal">
+      <div class="modal-content">
+        <h2>Explorando o Git: Controle de Versão e Colaboração Eficiente no Desenvolvimento de Software</h2>
+        <span class="close" onclick="closeModal(6)">&times;</span>
+        <img id="bo7" src="imagens/Im2.jpg" alt="comandos em cmd">
+          <p id="p6">No sexto semestre do curso de Tópicos especiais em sistemas para Internet III, foi abordado o tema do Git e sua importância no desenvolvimento de software. O Git é um sistema de controle de versão amplamente utilizado, que permite rastrear alterações, colaborar com outros desenvolvedores e manter um histórico detalhado
+           do código.Durante o curso, foram explorados os conceitos básicos do Git, desde a instalação até a criação de repositórios, adição de arquivos, criação de ramificações e fusões. Foram apresentados comandos essenciais, como git init, git clone, git add, git commit, git push, git pull, git branch, git checkout e git merge.
+            Também foram discutidas práticas recomendadas, como o uso adequado de mensagens de commit, organização de ramificações e resolução de conflitos.</p>
+          <img id="bo8" src="imagens/Im3.jpg" alt="comandos em cmd">
+      </div>
+    </div>
+  </section>
+  <section id="ProgMateria">
+    <h1>Progresso em Matérias</h1>
+    <p>Algumas das materias da Faculdade, ainda não tenho experiência profissional com elas.</p>
+    <div class="progress-bar">
+      <div class="subject">
+        <h3>HTML</h3>
+        <div class="progresso" id="progresso1"></div>
+      </div>
+      <div class="subject">
+        <h3>CSS</h3>
+        <div class="progresso" id="progresso2"></div>
+      </div>
+      <div class="subject">
+        <h3>JavaScript</h3>
+        <div class="progresso" id="progresso3"></div>
+      </div>
+      <div class="subject">
+        <h3>PHP</h3>
+        <div class="progresso" id="progresso4"></div>
+      </div>
+      <div class="subject">
+        <h3>Photoshop</h3>
+        <div class="progresso" id="progresso5"></div>
+      </div>
+      <div class="subject">
+        <h3>UX</h3>
+        <div class="progresso" id="progresso7"></div>
+      </div>
+      <div class="subject">
+        <h3>CorelDraw</h3>
+        <div class="progresso" id="progresso6"></div>
+      </div>
+
+    </div>
+  </section>
+  <section id="contatos" class="page">
+    <div class="container" >
+      <h2>Contatos</h2>
+      <p>Informações de contato, como email e telefone, podem ser adicionadas aqui.</p>
+      <a class="contatos-item" href="https://wa.me/5514996940163" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a class="contatos-item" href="https://www.facebook.com/durval.araujo.2" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a class="contatos-item" href="https://www.linkedin.com/in/durval-araujo-0b6260180/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+    </div>
+    
+  </section>
+  <section>
+    <div>
+        <iframe id="Iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.113119706572!2d-49.752800424851614!3d-21.698331280123856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be15ecb135a5dd%3A0x66b807178c781125!2sFATEC%20Lins!5e0!3m2!1spt-BR!2sbr!4v1685918418107!5m2!1spt-BR!2sbr" width="100%"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Site Fatec Lins</iframe>
+    </div>
+    <button class="back-to-top" onclick="scrollToTop()">Voltar ao Topo</button>
+  </section>
+
+  <footer>
+    <p>&copy; Criado por Durval de Araujo </p>
+  </footer>
+  <script src="meujs.js"></script>
+</body>
+</html>
